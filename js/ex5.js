@@ -4,7 +4,7 @@
 //make sure html and css are loaded
 var myAudio = document.createElement('audio');
 myAudio.controls = true;
-//myAudio.src = 'media/clink.mp3';
+myAudio.src = 'media/clink.mp3';
 
 $(document).ready(function () {
 
