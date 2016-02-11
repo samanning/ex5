@@ -15,8 +15,6 @@ $(document).ready(function () {
         //helper:'clone',
     });
     $('.bowl').droppable({
-        //activeClass:'highlight',
-        //hoverClass:  "hover",
         drop: function (event, ui) {
             myAudio.play();
         }
